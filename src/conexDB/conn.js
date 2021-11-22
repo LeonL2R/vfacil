@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 mongoose
-.connect("mongodb://localhost:27017/vuelafacil", {
+.connect( "mongodb+srv://LeonL2R:2045@vuelafacil.t91n1.mongodb.net/vuelafacil?retryWrites=true&w=majority", {
 useNewUrlParser: true,
 useUnifiedTopology: true,
 },(err,res)=>{
